@@ -1,4 +1,4 @@
-class Students{
+class Student{
     String name;
     int id;
 
@@ -7,14 +7,14 @@ class Students{
         System.out.println(this.id);
     }
 
-    Students(String name, int id){
+    Student(String name, int id){
         this.name=name;
         this.id=id;
     }
 }
 public class Parameterized_Constructor {
     static void main() {
-        Students s1 = new Students("unik", 11);
+        Student s1 = new Student("bee", 21);
         s1.PrintInfo();
     }
 }
