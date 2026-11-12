@@ -66,5 +66,7 @@ public class Try_Catch_Exception {
             // ALWAYS runs no matter what!
             System.out.println("Step 3: Clean up and close connection.");
         }
+
+
     }
 }
